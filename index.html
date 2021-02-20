@@ -6,11 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/46e1efb4d4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Blue Dot</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="menu-container">
+        <input type="checkbox" name="burger-menu" id="" />
+        <label class="menu-icon" for="burger-menu">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="close-icon" for="burger-menu">
+          <i class="fas fa-times"></i>
+        </label>
+        <nav>
+          <ul>
+            <li><a href="#episodes">EPISODIOS</a></li>
+            <li><a href="#us">NOSOTROS</a></li>
+            <li><a href="#guest">ENTREVISTAS</a></li>
+            <li><a href="#topics">TÓPICOS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="episodes" class="episodes-container"></section>
+      <section id="us" class="us-container"></section>
+      <section id="guest" class="guest-container"></section>
+      <section id="topics" class="topics-container"></section>
+      <section id="news" class="news-container"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
