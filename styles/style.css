@@ -32,7 +32,11 @@ header {
 }
 
 header img {
-
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 header .menu-container {
@@ -51,6 +55,7 @@ header .menu-container {
 .menu-container .close-icon {
   font-size: 2rem;
   position: absolute;
+  top: 0;
   right: 10px;
   opacity: 0;
   transition: all 250ms ease;
@@ -76,6 +81,7 @@ header .menu-container {
   padding-top: 16px;
   padding-bottom: 24px;
   height: 224px;
+  opacity: 1;
 }
 
 nav {
@@ -83,10 +89,12 @@ nav {
   min-width: 320px;
   height: 0px;
   padding: 0;
+  margin-top: 10px;
   background-color: #0000EC;
   font-size: 1.6rem;
   line-height: 2.8rem;
   transition: all 500ms ease;
+  opacity: 0;
 }
 
 nav ul{
@@ -107,4 +115,58 @@ nav a {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
+}
+
+nav a:hover {
+  text-decoration: line-through;
+}
+
+.home {
+  padding-top: 29px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  color: #060A24;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 4.2rem;
+  letter-spacing: 0;
+}
+
+h1 span {
+  display: block;
+}
+
+.home p {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  letter-spacing: 0;
+}
+
+.home button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 36px;
+  padding: 13px;
+  width: 90%;
+  min-width: 288px;
+  max-width: 350px;
+  background-color: #00F3BB;
+  color: #060A24;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+}
+
+.home button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+
 }
