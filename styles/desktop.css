@@ -1,0 +1,43 @@
+@media screen and (min-width: 1024px)
+{
+    header {
+        padding: 22px 100px;
+    }
+
+    nav a {
+        font-size: 1.6rem;
+    }
+
+    .home {
+        padding-top: 120px;
+        padding-left: 200px;
+        padding-bottom: 3px;
+    }
+
+    .home h1 {
+        font-size: 6.4rem;
+        line-height: 8.4rem;
+    }
+
+    .home h1 span {
+        display: inline-block;
+    }
+
+    .home p {
+        max-width: 628px;
+        margin: 0;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .home button {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        padding: 16px;
+        width: 226px;
+        margin-top: 56px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}

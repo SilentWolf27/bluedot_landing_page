@@ -1,0 +1,64 @@
+@media screen and (min-width: 767px) {
+  header {
+    padding: 22px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    position: initial;
+    width: 36px;
+    height: 36px;
+  }
+
+  .menu-container input:checked ~ nav {
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+
+  .menu-container .menu-icon,
+  .close-icon,
+  input {
+    display: none;
+  }
+
+  nav {
+    width: auto;
+    min-width: 320px;
+    height: auto;
+    opacity: 1;
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 0;
+  }
+
+  nav ul li {
+    margin-left: 48px;
+  }
+
+  nav a {
+    padding: 0;
+    font-size: 1.4rem;
+    color: #060a24;
+  }
+
+  .home {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .home h1 {
+    font-size: 4.2rem;
+  }
+
+  .home p {
+    font-size: 1.6rem;
+  }
+}
