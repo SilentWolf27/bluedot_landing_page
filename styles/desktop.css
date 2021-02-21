@@ -40,4 +40,22 @@
         margin-right: 0;
     }
 
+    .episodes-container {
+        padding-top: 184px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .episodes-container h2{
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .episodes-grid-container {
+        width: 100%;
+        justify-content: center;
+        grid-template-columns: repeat(2,minmax(375px, 584px));
+        column-gap: 72px;
+        row-gap: 72px;
+    }
 }

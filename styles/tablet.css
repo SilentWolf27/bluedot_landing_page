@@ -61,4 +61,20 @@
   .home p {
     font-size: 1.6rem;
   }
+
+  .episodes {
+    padding-top: 100px;
+  }
+
+  .episodes-container h2 {
+    font-size: 4.8rem;
+    line-height: 6.2rem;
+    text-align: center;
+    
+  }
+
+  .episodes-grid-container {
+    margin-top: 26px;
+    row-gap: 40px;
+  }
 }
