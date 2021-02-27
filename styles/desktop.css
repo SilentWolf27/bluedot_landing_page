@@ -1,101 +1,126 @@
-@media screen and (min-width: 1024px)
-{
-    header {
-        padding: 22px 100px;
-    }
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 22px 100px;
+  }
 
-    nav a {
-        font-size: 1.6rem;
-    }
+  nav a {
+    font-size: 1.6rem;
+  }
 
-    .home {
-        padding-top: 120px;
-        padding-left: 200px;
-        padding-bottom: 3px;
-    }
+  .home {
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-bottom: 3px;
+  }
 
-    .home h1 {
-        font-size: 6.4rem;
-        line-height: 8.4rem;
-    }
+  .home h1 {
+    font-size: 6.4rem;
+    line-height: 8.4rem;
+  }
 
-    .home h1 span {
-        display: inline-block;
-    }
+  .home h1 span {
+    display: inline-block;
+  }
 
-    .home p {
-        max-width: 628px;
-        margin: 0;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  .home p {
+    max-width: 628px;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 
-    .home button {
-        font-size: 1.8rem;
-        line-height: 2.4rem;
-        padding: 16px;
-        width: 226px;
-        margin-top: 56px;
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .home button {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding: 16px;
+    width: 226px;
+    margin-top: 56px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .episodes-container {
-        padding-top: 184px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+  .episodes-container {
+    padding-top: 184px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 
-    .episodes-container h2{
-        text-align: left;
-        margin-left: 100px;
-    }
+  .episodes-container h2 {
+    text-align: left;
+    margin-left: 100px;
+  }
 
-    .episodes-grid-container {
-        width: 100%;
-        justify-content: center;
-        grid-template-columns: repeat(2,minmax(375px, 584px));
-        column-gap: 72px;
-        row-gap: 72px;
-    }
+  .episodes-grid-container {
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(375px, 584px));
+    column-gap: 72px;
+    row-gap: 72px;
+  }
 
-    .us-container {
-        margin-top: 100px ;
-        flex-direction: row;
-        justify-content: center;
-    }
+  .us-container {
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    .us-container img{
-        width: 457px;
-        height: 660px;
-        top: -140px;
-    }
+  .us-container img {
+    width: 457px;
+    height: 660px;
+    top: -140px;
+  }
 
-    .us-text-container {
-        margin: 0;
-        padding: 0;
-        max-width: 526px;
-        padding-left: 62px;
-    }
+  .us-text-container {
+    margin: 0;
+    padding: 0;
+    max-width: 526px;
+    padding-left: 62px;
+  }
 
-    .us-text-container h2 {
-        font-size: 4.8rem;
-        line-height: 6.2rem;
-    }
+  .us-text-container h2 {
+    font-size: 4.8rem;
+    line-height: 6.2rem;
+  }
 
-    .us-text-container p {
-        margin-top: 24px;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  .us-text-container p {
+    margin-top: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 
-    .guest-container h2{
-        margin-left: 200px;
-        font-size: 4.8rem;
-        line-height: 6.2rem;
-    }
+  .guest-container h2 {
+    margin-left: 200px;
+    font-size: 4.8rem;
+    line-height: 6.2rem;
+  }
 
-    .guest-grid-container {
-        grid-template-columns: repeat(3, 1fr);
-      }
+  .guest-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .topics-container h2 {
+    margin-left: 200px;
+  }
+
+  .topics-grid-container {
+    margin-top: 69px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .news-container {
+    padding-top: 213px;
+    padding-bottom: 151px;
+  }
+  .news-container h2 {
+    font-size: 4.8rem;
+    line-height: 6.2rem;
+  }
+  
+  .news-container a {
+    padding: 16px 0;
+    width: 345px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  
 }
