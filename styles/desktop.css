@@ -58,4 +58,44 @@
         column-gap: 72px;
         row-gap: 72px;
     }
+
+    .us-container {
+        margin-top: 100px ;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .us-container img{
+        width: 457px;
+        height: 660px;
+        top: -140px;
+    }
+
+    .us-text-container {
+        margin: 0;
+        padding: 0;
+        max-width: 526px;
+        padding-left: 62px;
+    }
+
+    .us-text-container h2 {
+        font-size: 4.8rem;
+        line-height: 6.2rem;
+    }
+
+    .us-text-container p {
+        margin-top: 24px;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .guest-container h2{
+        margin-left: 200px;
+        font-size: 4.8rem;
+        line-height: 6.2rem;
+    }
+
+    .guest-grid-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
 }

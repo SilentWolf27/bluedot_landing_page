@@ -77,4 +77,12 @@
     margin-top: 26px;
     row-gap: 40px;
   }
+
+  .us-text-container {
+    margin: 0 50px;
+  }
+
+  .guest-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
