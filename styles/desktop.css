@@ -96,6 +96,7 @@
 
   .guest-grid-container {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 364px;
   }
 
   .topics-container h2 {
@@ -122,5 +123,15 @@
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
+
+  footer {
+    padding: 36px 100px 31px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
+  footer .social{
+    margin: 0;
+  }
+
 }
