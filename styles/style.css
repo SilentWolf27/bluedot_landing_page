@@ -220,8 +220,10 @@ h1 span::after {
 .episodes-grid-container iframe {
   margin: 0 auto;
   min-width: 298px;
-  width: 100%;
   max-width: 584px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
 }
 
 .us-container {
